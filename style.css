@@ -644,3 +644,52 @@ button{
 }
 
 /*end of the footer section*/
+
+
+/*Start of the media query*/
+@media screen and (max-width: 768px) {
+    body{
+        width: 900px;
+        height: 3727px;
+        background-color: #fff;
+    }
+    #head {
+        width: 900px;
+        height: 164px;
+    }
+    .icon{
+        width: 195px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    .container-2 button{
+        width: 88px;
+        height: 48px;
+        padding: 16px 30px;
+        gap: 10px;
+    }
+    .container{
+        display: flex;
+        width: 742px;
+        height: 48px;
+        padding: 8px 12px 8px 8px;
+        gap: 16px;
+    }
+    #col-1{
+        width: 268px;
+        height: 180px;
+        color: #C4C4C4;
+        padding: 5px;
+        margin: 5px;
+    }
+    #col-1 p{
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .wrapper{
+        width: 268px;
+        height: 374px;
+        flex-shrink: 0;
+    }
+}
+/*end of the media query*/
